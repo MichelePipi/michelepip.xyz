@@ -1,0 +1,30 @@
+.gradient-background {
+    background: linear-gradient(223deg, #ebebeb, #a37aed, #3e9fe9, #3ee3e9, #10ef76);
+    background-size: 1000% 1000%;
+
+    -webkit-animation: background-anim 36s ease infinite;
+    -moz-animation: background-anim 36s ease infinite;
+    animation: background-anim 36s ease infinite;
+}
+
+@-webkit-keyframes background-anim {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes background-anim {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes background-anim {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+/*404 styles*/
+#generic-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;    
+}
