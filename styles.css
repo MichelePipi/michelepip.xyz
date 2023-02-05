@@ -4,6 +4,7 @@
 
     -webkit-animation: background-anim 36s ease infinite;
     -moz-animation: background-anim 36s ease infinite;
+    -o-animation: background-anim 36s ease infinite;
     animation: background-anim 36s ease infinite;
 }
 
@@ -24,7 +25,10 @@
 }
 
 /*generic styling*/
-#generic-title {
+.generic-heading {
     font-family: 'Roboto', sans-serif;
-    font-size: 50px;    
+}
+
+.large {
+    font-size: 40px;
 }
